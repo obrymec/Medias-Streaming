@@ -1,0 +1,42 @@
+/*Category header*/
+div.category-header {
+	padding: 5px 8px 5px 8px;
+}
+
+/*Media caetogry container*/
+div.media-category {
+	box-shadow: 0 0 3px gray;
+	background-color: #fff;
+	width: 100%;
+}
+
+/*Category name container*/
+div.category-name {
+	align-items: center;
+	display: flex;
+	width: 100%;
+}
+
+/*Category background blink*/
+div.category-blink {
+	animation: 400ms bg-blink 0ms forwards;
+	animation-direction: alternate;
+	animation-iteration-count: 6;
+}
+
+/*Category content*/
+div.category-content {
+	border-top: 1px solid #ccc;
+	padding: 25px;
+}
+
+/*Category children count*/
+div.category-children-count > label {
+	background-color: rgb(80, 80, 80);
+	text-shadow: 0 0 8px #ee1010;
+	padding: 3px 8px 3px 8px;
+	border: 1px solid gray;
+	display: inline-block;
+	border-radius: 30px;
+	color: #fff;
+}

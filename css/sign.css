@@ -1,0 +1,113 @@
+/*Sign in and up container*/
+div.sign-in-container, div.sign-up-container {
+	flex-direction: column;
+}
+
+/*user id and password*/
+div.field > input {
+	width: 80%;
+}
+
+/*Sign up, in button*/
+div.sign-in-options > button#sign-up-btn, div.sign-up-options > button#sign-in-btn {
+	margin-left: 8px;
+}
+
+/*Sign in and up options*/
+div.sign-in-options > button, div.sign-up-options > button {
+	width: 134px;
+}
+
+/*Fields section*/
+div.fields {
+	width: 100%;
+}
+
+/*Down translation*/
+div.down-translate {
+	transform: translateY(0) !important;
+}
+
+/*Up translation*/
+div.up-translate {
+	transform: translateY(-100%) !important;
+}
+
+/*Sign part show*/
+div.sign-show {
+	transform: translateX(0) !important;
+}
+
+/*Sign in hide*/
+div.sign-in-hide {
+	transform: translateX(100%) !important;
+}
+
+/*Sign up hide*/
+div.sign-up-hide {
+	transform: translateX(-100%) !important;
+}
+
+/*Sign in container*/
+div.sign-in {
+	transform: translateX(100%);
+	right: 0;
+}
+
+/*Sign up container*/
+div.sign-up {
+	transform: translateX(-100%);
+	left: 0;
+}
+
+/*Guest bloom*/
+div.bloom {
+	animation-timing-function: ease-in-out;
+	animation: 3000ms bloom 1s forwards;
+	animation-iteration-count: infinite;
+}
+
+/*Title*/
+div.title > label {
+	text-shadow: 0 0 6px #ff0921;
+	font-size: 22px;
+	color: #fff;
+}
+
+/*Guest icon*/
+div.guest-icon {
+	border-radius: 128px;
+	height: 128px;
+	width: 128px;
+}
+
+/*Medias streaming icon*/
+div.streaming-icon {
+	box-shadow: 0 0 12px #fa1b27;
+	border-radius: 164px;
+	height: 164px;
+	width: 164px;
+}
+
+/*Medias streaming svg vectors image*/
+div.streaming-icon > svg {
+	transform: translate(18px, 18px);
+}
+
+/*Sign background image*/
+div.bg-sign {
+	transform: translateY(-100%);
+	transition: 0.3s transform;
+}
+
+/*Sign background*/
+div.bg-part {
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 10px black;
+	backdrop-filter: blur(2px);
+	transition: 0.3s transform;
+	position: fixed;
+	width: 320px;
+	bottom: 0;
+	top: 0;
+}

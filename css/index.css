@@ -1,0 +1,114 @@
+/*Body design*/
+body {
+	box-sizing: border-box;
+	overflow: overlay;
+	padding: 0;
+	margin: 0;
+}
+
+/*Fixed element*/
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+/*Label element*/
+label, .field > input, .field > select, .field > textarea, input::placeholder {
+	letter-spacing: 1.5px;
+	font-family: verdana;
+	user-select: none;
+	color: #505050;
+	font-size: 16px;
+}
+
+/*Centered element*/
+.center {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+/*Input*/
+.field > input, .field > select, .field > textarea {
+	box-shadow: inset 0 3px 3px rgb(210, 210, 210);
+	transition-property: color, box-shadow, border;
+	padding: 2px 12px 2px 12px;
+	transition-duration: 0.3s;
+	border: 1px solid silver;
+	background-color: #fff;
+	border-radius: 5px;
+	appearance: none;
+	font-size: 15px;
+	outline: none;
+	height: 30px;
+}
+
+/*Input hover*/
+div.field > input:hover {
+	box-shadow: 0 0 6px #de2916;
+	color: #de2916;
+}
+
+/*Input field placeholder text*/
+.field > input::placeholder, .field > textarea::placeholder {
+	transition: color 0.3s ease-in-out;
+	font-style: italic;
+	font-size: 15px;
+	color: silver;
+}
+
+/*Placeholder hover*/
+.field:hover > input::placeholder, .field:hover > textarea::placeholder {
+	color: #de2916;
+}
+
+/*Button*/
+button, input[type="button"] {
+	transition-property: border, box-shadow, text-shadow;
+	box-shadow: 0 0 6px transparent;
+	text-shadow: 0 0 0 transparent;
+	background-color: transparent;
+	transition-duration: 0.3s;
+	padding: 8px 8px 8px 8px;
+	border: 1px solid #FFF;
+	letter-spacing: 1.5px;
+	font-family: verdana;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+}
+
+/*Button hover*/
+button:hover, input[type="button"]:hover {
+	text-shadow: 0 0 8px #e21313;
+	box-shadow: 0 0 8px #ee1010;
+	border: 1px solid #ee1010;
+}
+
+/*Vertical flex box*/
+.vflex {
+	flex-direction: column;
+	display: flex;
+	height: 100%;
+}
+
+/*Horizontal flex box*/
+.hflex {
+	flex-direction: row;
+	display: flex;
+}
+
+/*Hide any tag element*/
+.face-off {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}

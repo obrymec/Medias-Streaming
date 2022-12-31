@@ -1,0 +1,24 @@
+/*Medias categories*/
+div.medias-categories {
+	scroll-behavior: smooth;
+    padding-right: 20px;
+    padding-left: 20px;
+	gap: 30px;
+}
+
+/*More results button hover*/
+button#more-res-btn:hover {
+	box-shadow: 0 0 8px #ee1010;
+	text-shadow: 0 0 10px #fff;
+	background-color: #DC143C;
+}
+
+/*More results button*/
+button#more-res-btn {
+	transition-property: background-color, text-shadow;
+	box-shadow: 0 1px 3px #000;
+	background-color: #fa1b27;
+	transition-duration: 0.3s;
+	border: none;
+	width: 100%;
+}

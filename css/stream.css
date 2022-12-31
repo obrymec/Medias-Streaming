@@ -1,0 +1,212 @@
+/*Remove button hover*/
+div.stream:hover > div.sheader > div.svideo-remove {
+	transform: translate(128px, -125px) scale(1.0);
+}
+
+/*Stream title and reactions*/
+div.slabel strong, div.sreactions label {
+	cursor: pointer;
+}
+
+/*Left margin*/
+div.left-margin {
+	margin-left: 10px;
+}
+
+/*Bottom margin*/
+div.bottom-margin {
+	margin-bottom: 32%;
+}
+
+/*Dislike icon*/
+div.sdicon {
+	transform: translateY(3.4px);
+}
+
+/*Like icon*/
+div.slicon {
+	transform: translateY(1.5px);
+}
+
+/*Left data*/
+div.sleft {
+	border-bottom-left-radius: 5px;
+}
+
+/*Right data*/
+div.sright {
+	border-bottom-right-radius: 5px;
+}
+
+/*Player vector image*/
+div.player-icon > svg {
+	transform: translateY(-3px);
+}
+
+/*Stream tag hider*/
+div.shider {
+	visibility: hidden;
+}
+
+/*View time*/
+div.sviews-time {
+	margin-top: 3px;
+}
+
+/*Stream video logo*/
+div.svideo {
+	transform: translate(-340%, -110px);
+	width: 32px;
+}
+
+/*Header*/
+div.sheader {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+/*Player background hover*/
+div.stream:hover > div.sheader > div.splayer {
+	background-color: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(2px);
+}
+
+/*Stream hover*/
+div.stream:hover > div.sheader > div.splayer > div.player-icon {
+	transform: translateY(20px) scale(0.8);
+	opacity: 0.8;
+}
+
+/*Stream reaction*/
+div.sreactions {
+	margin-left: -1px; 
+	margin-top: 3px;
+	gap: 10px;
+}
+
+/*Like and dislike labels text*/
+div.slabel > label, div.sltext > label, div.sdtext > label {
+	text-align: left;
+	display: block;
+}
+
+/*Stream time container*/
+div.stime {
+	transform: translate(126%, 110%);
+	margin-top: -50px;
+	width: 70px;
+}
+
+/*Stream audio logo*/
+div.saudio {
+	transform: translate(-345%, -108px);
+	margin-top: -29px;
+	width: 32px;
+}
+
+/*Stream like*/
+div.slike {
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+/*Stram dislike*/
+div.sdislike {
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+/*Stream body*/
+div.sbody {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	gap: 15px;
+}
+
+/*Stream global container*/
+div.stream {
+	display: inline-block;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 256px;
+	height: auto;
+}
+
+/*User image*/
+div.sleft > img {
+	box-shadow: 0 0 5px black;
+	border-radius: 50px;
+	object-fit: cover;
+	height: 40px;
+	width: 40px;
+}
+
+/*Producer and views number*/
+div.sproducer > label, div.sviews-time > label {
+	color: rgb(100, 100, 100);
+	text-align: left;
+	font-size: 12px;
+	cursor: pointer;
+	display: block;
+}
+
+/*Stream time*/
+div.stime > label {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 3px 5px 3px 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #fff;
+}
+
+/*Cover image*/
+div.scover > img {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	object-fit: cover;
+	height: 145px;
+	width: 256px;
+	size: 100%;
+}
+
+/*Stream video remove icon*/
+div.svideo-remove {
+	transform: translate(128px, -128px) scale(0);
+	transition: transform 0.2s;
+	box-shadow: 0 0 8px red;
+	background-color: #FFF;
+	border-radius: 32px;
+	margin-top: -30.8px;
+	height: 32px;
+	width: 32px;
+}
+
+/*Player background*/
+div.splayer {
+	transition-property: background-color, backdrop-filter;
+	background-color: rgba(0, 0, 0, 0);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	transition-duration: 0.4s;
+	backdrop-filter: blur(0);
+	margin-top: -58.5%;
+	height: 145px;
+}
+
+/*Player icon*/
+div.player-icon {
+	transition-property: transform, opacity;
+	transform: translateY(20px) scale(1.3);
+	background-color: rgb(222, 41, 22);
+	box-shadow: 0 0 10px red;
+	transition-duration: 0.4s;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	opacity: 0;
+}

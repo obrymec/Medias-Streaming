@@ -1,0 +1,213 @@
+/*Main container*/
+div.main-container {
+	position: fixed;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+/*Medias streaming main characters*/
+strong#str-char {
+	text-shadow: 0 0 10px #ee1010;
+	font-size: 20px;
+}
+
+/*Menu bar*/
+div.menu-bar {
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 2px 0 6px black;
+	padding: 10px 15px 10px 15px;
+	backdrop-filter: blur(2px);
+	transition: 0.3s transform;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	left: 67px;
+	z-index: 1;
+	gap: 18px;
+	right: 0;
+}
+
+/*Slider bar*/
+div.slider-bar {
+	background-color: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(2px);
+	transition: 0.3s transform;
+	align-items: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	gap: 35px;
+}
+
+div.app-logo {
+	transform: translateY(-1.5px);
+	align-items: center;
+	width: 30%;
+}
+
+div.app-logo > div.app-icon > svg {
+	transform: translateY(3px);
+}
+
+div.app-logo > div.app-name {
+	margin-left: 10px;
+}
+
+div.search-bar {
+	justify-content: center;
+	align-items: center;
+	width: 100%
+}
+
+div.search-bar > input {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 0;
+	height: 23px;
+	width: 100%;
+}
+
+div.search-bar > div.search-icon {
+	background-color: #DDD;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 1px;
+	cursor: pointer;
+}
+
+div.search-bar > div.search-icon:hover {
+	background-color: silver;
+}
+
+div.search-bar > div.search-icon > svg {
+	transform: translateY(2px);
+}
+
+/*App name*/
+div.app-name > label {
+	color: #FFF;
+}
+
+div.sign-in-btn-cnt > button, div.sign-up-btn-cnt > button {
+	padding-bottom: 4px;
+	padding-top: 4px;
+	font-size: 14px;
+	width: 134px;
+}
+
+div.sign-up-btn-cnt > button {
+	background-color: #fff;
+	color: #343434;
+}
+
+div.video-adder, div.audio-adder {
+	cursor: pointer;
+}
+
+div.user-id-cnt {
+	animation-timing-function: ease-in-out;
+	animation: 3000ms bloom 1s forwards;
+	animation-iteration-count: infinite;
+	background-color: #fff;
+	border-radius: 45px;
+	height: 30px;
+	width: 40px;
+}
+
+div.user-id-cnt > label {
+	transform: translate(2%, 22%);
+	display: inline-block;
+	font-size: 18px;
+}
+
+div.dashboard-cnt > svg {
+	transform: translateY(8%);
+}
+
+div.slider-option > div.opt-name > label {
+	transition: text-shadow 0.3s;
+	font-size: 12px;
+	cursor: pointer;
+	color: #FFF;
+}
+
+div.slider-option {
+	cursor: pointer;
+}
+
+div.slider-option:hover > div.opt-name > label, div.active-slider-option > div.opt-name > label {
+	text-shadow: 0 0 8px #ee1010;
+}
+
+div.slider-option > div.opt-icon > svg {
+	transition: fill 0.3s;
+}
+
+div.slider-option:hover > div.opt-icon > svg, div.active-slider-option > div.opt-icon > svg {
+	fill: #ee1010;
+}
+
+div.tags-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid silver;
+	backdrop-filter: blur(2px);
+	padding: 8px 10px 8px 10px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	position: fixed;
+	width: auto;
+	left: 67px;
+    z-index: 1;
+	top: 50px;
+	gap: 15px;
+	right: 0;
+}
+
+div.right-data {
+	height: 100%;
+	width: 100%;
+}
+
+div.no-overflow {
+	overflow-y: hidden;
+}
+
+div.assets {
+	background-color: #eee;
+	overflow-x: hidden;
+	height: 100%;
+	width: auto;
+}
+
+div.toolbar {
+	justify-content: flex-end;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	position: fixed;
+	gap: 20px;
+	bottom: 0;
+	right: 0;
+}
+
+div.videos-cnt-opt, div.audios-cnt-opt, div.all-cnt-opt {
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 4px black;
+	backdrop-filter: blur(2px);
+	justify-content: center;
+	border-radius: 70px;
+	align-items: center;
+	height: 70px;
+	width: 70px;
+}
+
+div.videos-cnt-opt:hover, div.audios-cnt-opt:hover, div.all-cnt-opt:hover {
+	box-shadow: 0 0 6px #ee1010;
+}
+
+div.active-tab {
+	box-shadow: 0 0 6px #ee1010;
+}

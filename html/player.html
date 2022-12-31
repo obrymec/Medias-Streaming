@@ -1,0 +1,117 @@
+<body>
+	<!--Global container-->
+	<div class = "player-container hflex">
+		<!--Stream viewer-->
+		<div class = "stream-viewer vflex">
+			<!--Stream container-->
+			<br/><br/><div class = "stream-container">
+				<!--Video stream player action-->
+				<div class = "vplayer vflex hide-vplayer face-off">
+					<!--Player icon-->
+					<div class = "picon vflex hide-picon" title = "Démarrer la lecture de cette vidéo.">
+						<svg fill = "#FFF" width = "90px" height = "90px" viewBox = "-265 388.9 64 64"><g>
+							<path d = 'M-242.6,407l26.1,15.1c0.6,0.4,0.6,1.2,0,1.6l-26.1,15.1c-0.6,
+							0.4-1.4-0.1-1.4-0.8v-30.2C-244,407.1-243.2,406.7-242.6,407 z'/></g>
+						</svg>
+					</div>
+				</div>
+				<!--Poster profil and initializing video stream-->
+				<div class = "sleft"><img/></div><video width = "100%" height = "370px" controls></video>
+			</div>
+			<!--Stream infos-->
+			<div class = "stream-infos hflex">
+				<!--Stream title-->
+				<div class = "stream-title"><label><strong></strong></label></div>
+				<!--Stream origin-->
+				<div class = "stream-origin"><label></label></div>
+			</div>
+			<!--Stream options-->
+			<div class = "stream-options hflex">
+				<!--Stream likes-->
+				<div class = "slike hflex" title = "J'aime ce contenu.">
+					<!--Likes count-->
+					<div class = "sltext"><label></label></div>
+					<!--Like icon-->
+					<div class = "slicon">
+						<svg width = "20px" height = "20px" fill = "#fff" viewBox = "0 0 32 32" stroke = "#000">
+							<g><path d = "M26.78998,8.46997h-3.48999c-0.35999,
+							0-0.64001-0.28998-0.64001-0.64001v-3c0-1.59998-0.97998-2.94995-2.5-3.44995 
+							c-1.51996-0.5-3.12,0-4.06995,1.28998l-4.10004,5.53998c-0.12,0.16003-0.31,
+							0.26001-0.51001,0.26001H4.14001 C2.13,8.46997,0.5,10.09998,0.5,
+							12.10999V24.13c0,2.01001,1.63,3.63995,3.64001,3.63995h5l13.95001,2.94 c0.32996,
+							0.07001,0.64996,0.10004,0.97998,0.10004c1.04999,0,2.07001-0.35004,
+							2.90997-1.01001l2.73004-2.15002 C30.84998,26.75,31.5,25.39996,31.5,
+							23.95001V13.17999C31.5,10.57996,29.39001,8.46997,26.78998,8.46997z M7.78998,
+							24.76996 H4.14001C3.78998,24.76996,3.5,24.48999,3.5,24.13V12.10999c0-0.35999,
+							0.28998-0.64001,0.64001-0.64001h3.64996V24.76996z"/></g>
+						</svg>
+					</div>
+				</div>
+				<!--Stream dislikes-->
+				<div class = "sdislike hflex" title = "Je n'aime pas ce contenu.">
+					<!--Dislikes count-->
+					<div class = "sdtext"><label></label></div>
+					<!--Dislike icon-->
+					<div class = "sdicon">
+						<svg width = "20px" height = "20px" fill = "#fff" viewBox = "0 0 32 32" stroke = "#000">
+							<g><path d = "M29.71002,4.34998l-2.73004-2.14996C25.88,1.32996,24.46002,1,23.09003,
+							1.28998l-13.95001,2.94h-5 C2.13,4.22998,0.5,5.85999,0.5,7.87v12.02002c0,2.00995,
+							1.63,3.63995,3.64001,3.63995h7.33997 c0.20001,0,0.39001,0.10004,0.51001,
+							0.26001l4.10004,5.53998C16.79999,30.28998,17.87,30.81,18.98999,30.81 c0.39001,0,
+							0.78003-0.06,1.16998-0.19c1.52002-0.5,2.5-1.85004,2.5-3.45001v-3c0-0.34998,
+							0.28003-0.64001,0.64001-0.64001h3.48999 c2.60004,0,4.71002-2.10999,4.71002-4.70996V8.04999C31.5,
+							6.59998,30.84998,5.25,29.71002,4.34998z M7.78998,20.52997H4.14001 C3.78998,
+							20.52997,3.5,20.25,3.5,19.89001V7.87c0-0.35999,0.28998-0.64001,
+							0.64001-0.64001h3.64996V20.52997z"/></g>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<!--Toolbox-->
+			<div class = "toolbox hflex">
+				<!--Preview button-->
+				<div class = "preview-btn vflex" align = "center" title = "Jouez le média précédant.">
+					<svg height = "48px" width = "48px" viewBox = "0 0 12 12" style = "transform: rotate(180deg)">
+						<g fill = "none" fill-rule = "evenodd" stroke = "none" stroke-width = '1'>
+						<g fill = "#252525" transform = "translate(-88, -131)"><g transform = "translate(88, 131)">
+						<path d = "M0,12 L8.5,6 L0,0 L0,12 L0,12 Z M10,0 L10,12 L12,12 L12,0 L10,0 L10,0 Z"/></g></g></g>
+					</svg>
+				</div>
+				<!--Play button-->
+				<div class = "play-btn vflex" align = "center" title = "Lire ce média.">
+					<svg height = "128px" width = "128px" enable-background = "new 0 0 512 512" viewBox = "0 0 512 512">
+						<path d = "M363.747,148.753c-59.228-59.227-155.267-59.227-214.494,0c-59.227,59.228-59.227,155.267,
+						0,214.494 c59.228,59.227,155.267,59.227,214.494,0C422.974,304.02,422.974,207.98,363.747,
+						148.753z M256.853,281.81l-71.418,71.418 l-26.163-26.163l71.417-71.418l-70.71-70.711l25.456-25.456l70.711,
+						70.71l70.711-70.71l26.163,26.163l-70.711,70.71l70.711,70.711 l-25.456,25.456L256.853,281.81z"
+						fill = "#252525"/><circle cx = "256" cy = "256.354" fill = "#fff" r = "122.687"/>
+						<path d = "M332.461,253.354c2.858,1.65,2.858,4.35,0,6l-112.094,64.717c-2.858,1.65-5.196,
+						0.3-5.196-3V191.636 c0-3.3,2.338-4.65,5.196-3L332.461,253.354z" fill = "#252525"/>
+					</svg>
+				</div>
+				<!--Next button-->
+				<div class = "next-btn vflex" align = "center" title = "Jouez le média suivant.">
+					<svg height = "48px" width = "48px" viewBox = "0 0 12 12">
+						<g fill = "none" fill-rule = "evenodd" stroke = "none" stroke-width = '1'>
+						<g fill = "#252525" transform = "translate(-88, -131)"><g transform = "translate(88, 131)">
+						<path d = "M0,12 L8.5,6 L0,0 L0,12 L0,12 Z M10,0 L10,12 L12,12 L12,0 L10,0 L10,0 Z"/></g></g></g>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<!--Availables streams-->
+		<div class = "availables-streams" align = "center">
+			<!--Streams data-->
+			<div class = "streams-data"></div>
+			<!--More results container-->
+			<div class = "mr-btn face-off">
+				<!--More results button-->
+				<button id = "more-res-btn" title = "Shouhaitez-vous consulter plus de contenu ?">Voire plus de résultats</button>
+			</div>
+			<!--Makes a litle bottom space-->
+			<br/><br/>
+		<div>
+	</div>
+	<!--Controller-->
+	<script type = "text/javascript" src = "../js/player.js"></script>
+</body>

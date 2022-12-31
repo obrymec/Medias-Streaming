@@ -1,0 +1,30 @@
+/*Generic loader and his container*/
+div.gen-loader, div.ld-ctr {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+/*Loader text*/
+div.loader-text > label {
+	font-family: verdana;
+	font-style: italic;
+}
+
+/*Loader icon*/
+div.loader-icon > svg {
+	animation: 400ms rotate 0ms forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	transform: rotate(0);
+}
+
+/*Loader text container*/
+div.loader-text {
+	transform: translateY(-1px);
+}
+
+/*Generic loader container*/
+div.ld-ctr {
+	gap: 8px;
+}

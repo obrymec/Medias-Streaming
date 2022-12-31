@@ -1,0 +1,183 @@
+/*Global player container*/
+div.player-container {
+	background-color: #fff;
+	height: 100%;
+}
+
+/*Player icon container*/
+div.picon {
+	background-color: rgba(222, 41, 22, 0.8);
+	box-shadow: 0 0 8px red;
+	border: 1px solid #fff;
+	justify-content: center;
+	border-radius: 80px;
+	align-items: center;
+	height: 80px;
+	width: 80px;
+}
+
+/*Player icon*/
+div.picon > svg {
+	transform: translateY(-1px);
+}
+
+/*Video player cover hover*/
+div.vplayer {
+	background-color: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(2px);
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 55.2%;
+	width: 47.7%;
+}
+
+/*Video tag*/
+div.stream-container > video {
+	outline: none;
+}
+
+/*Stream container*/
+div.stream-container {
+	margin-top: 30px;
+}
+
+/*Stream viewer*/
+div.stream-viewer {
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 52%;
+}
+
+/*Availables streams*/
+div.availables-streams {
+	background-color: #eee;
+	scroll-behavior: smooth;
+	padding-bottom: 150px;
+	overflow-x: hidden;
+	padding-top: 70px;
+	overflow-y: auto;
+	height: 100%;
+	width: 48%;
+}
+
+/*Stream informations*/
+div.stream-infos {
+	border-bottom: 1px solid silver;
+	padding: 10px 0 10px 0;
+	align-items: center;
+	margin-top: -5px;
+}
+
+/*Title*/
+div.stream-title {
+	width: 100%;
+}
+
+/*Origin*/
+div.stream-origin {
+	text-align: right;
+	min-width: 35%;
+}
+
+/*Options*/
+div.stream-options {
+	border-bottom: 1px solid silver;
+}
+
+/*Like count section*/
+div.stream-options > div.slike {
+	border-right: 1px solid silver;
+	padding: 5px 0 5px 0;
+	cursor: pointer;
+	width: 50%;
+}
+
+/*Dislike count section*/
+div.stream-options > div.sdislike {
+	padding: 5px 0 5px 0;
+	cursor: pointer;
+	width: 50%;
+}
+
+/*Stream like and dislike*/
+div.stream-options > div.slike label, div.stream-options > div.sdislike label {
+	cursor: pointer;
+}
+
+/*Like and dislike hover*/
+div.stream-options > div.slike:hover, div.stream-options > div.sdislike:hover {
+	background-color: #ddd;
+}
+
+/*Disabled*/
+div.disabled, div.disabled label {
+	pointer-events: none;
+}
+
+/*Clicked*/
+div.clicked {
+	background-color: #ddd;
+	pointer-events: none;
+	font-weight: bold;
+}
+
+/*Clicked icon*/
+div.clicked svg {
+	stroke: transparent;
+	fill: #343434;
+}
+
+/*Author profil container */
+div.stream-container > div.sleft {
+	box-shadow: 0 0 4px #000;
+	border-radius: 40px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 40px;
+	width: 40px;
+}
+
+/*Author image*/
+div.stream-container > div.sleft > img {
+	animation-timing-function: ease-in-out;
+	animation: 3000ms bloom 1s forwards;
+	animation-iteration-count: infinite;
+}
+
+/*More results button*/
+div.availables-streams > div.mr-btn {
+	transform: translateY(-155px);
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+/*Toolbox*/
+div.toolbox {
+	height: 19%;
+}
+
+/*Toolkit*/
+div.preview-btn, div.play-btn, div.next-btn {
+	justify-content: center;
+	align-items: center;
+	width: 33.33%;
+	height: 100%;
+}
+
+/*Hover*/
+div.preview-btn > svg, div.play-btn > svg, div.next-btn > svg {
+	cursor: pointer;
+}
+
+/*Controls options hover*/
+div.preview-btn > svg:hover g, div.play-btn > svg:hover path, div.next-btn > svg:hover g {
+	fill: rgb(222, 41, 22);
+}
+
+/*Disabled control*/
+svg.disabled-control, svg.disabled-control g, svg.disabled-control path {
+	pointer-events: none;
+	fill: #ddd;
+}
